@@ -1,0 +1,2501 @@
+{
+  "metadata": {
+    "dateModifiedUser": "2018-08-31T21:27:57.727Z",
+    "serverDate": "2018-09-02T19:03:56.275Z",
+    "defaults": {},
+    "seasonId": "2017",
+    "leagueId": "941013",
+    "dateModifiedLeague": "2018-04-13T08:36:35.467Z",
+    "status": "offseason"
+  },
+  "boxscore": {
+    "scheduleItems": [
+      {
+        "matchups": [
+          {
+            "awayTeamAdjustment": 0,
+            "homeTeamAdjustment": 0,
+            "matchupTypeId": 0,
+            "awayTeam": {
+              "division": {
+                "size": 3,
+                "divisionName": "A",
+                "divisionId": 0
+              },
+              "teamAbbrev": "4A",
+              "waiverRank": 8,
+              "teamId": 1,
+              "teamLocation": "Vier",
+              "teamNickname": "Auberginen",
+              "logoType": "customValid",
+              "logoUrl": "https://thumbs.dreamstime.com/b/vier-auberginen-10158390.jpg"
+            },
+            "isBye": false,
+            "homeTeam": {
+              "division": {
+                "size": 3,
+                "divisionName": "D",
+                "divisionId": 3
+              },
+              "teamAbbrev": "SUCH",
+              "waiverRank": 3,
+              "teamId": 4,
+              "teamLocation": "Team",
+              "teamNickname": "Suchma"
+            },
+            "awayTeamScores": [
+              87
+            ],
+            "homeTeamBonus": 0,
+            "homeTeamId": 4,
+            "awayTeamId": 1,
+            "homeTeamScores": [
+              67
+            ],
+            "outcome": 2
+          }
+        ],
+        "matchupPeriodId": 1
+      }
+    ],
+    "teams": [
+      {
+        "appliedActiveRealTotal": 67,
+        "appliedInactiveRealTotal": 34,
+        "slots": [
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 17,
+              "appliedStats": {
+                "4": 4,
+                "8": 12,
+                "28": 1
+              },
+              "rawStats": {
+                "0": 30,
+                "1": 21,
+                "2": 9,
+                "3": 321,
+                "4": 1,
+                "5": 64,
+                "6": 32,
+                "7": 16,
+                "8": 12,
+                "9": 6,
+                "10": 3,
+                "11": 4,
+                "12": 2,
+                "13": 1,
+                "15": 1,
+                "16": 1,
+                "17": 1,
+                "21": 0.7,
+                "22": 321,
+                "23": 3,
+                "24": 11,
+                "27": 2,
+                "28": 1,
+                "39": 3.66667,
+                "40": 11,
+                "64": 2,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910003
+            ],
+            "opponentProTeamId": 3,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 7,
+            "slotCategoryId": 0,
+            "player": {
+              "lastName": "Ryan",
+              "percentOwned": 89.70976,
+              "lastNewsDate": "2018-01-14T01:24:03.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "2",
+              "isIREligible": false,
+              "playerRatingSeason": 213,
+              "value": -1,
+              "playerId": 11237,
+              "percentChange": -0.3824,
+              "lastVideoDate": "2017-12-28T18:07:14.677Z",
+              "percentStarted": 38.52243,
+              "droppable": true,
+              "firstName": "Matt",
+              "defaultPositionId": 1,
+              "positionRank": 15,
+              "healthStatus": 0,
+              "draftRank": 54.3,
+              "totalPoints": 213,
+              "eligibleSlotCategoryIds": [
+                0,
+                20
+              ],
+              "proTeamId": 1,
+              "tickerId": 2125735,
+              "sportsId": 11237,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 15,
+              "appliedStats": {
+                "28": 11,
+                "48": 4
+              },
+              "rawStats": {
+                "23": 22,
+                "24": 110,
+                "27": 22,
+                "28": 11,
+                "29": 5,
+                "30": 4,
+                "31": 2,
+                "32": 1,
+                "33": 4,
+                "34": 2,
+                "37": 1,
+                "39": 5,
+                "40": 110,
+                "41": 5,
+                "42": 49,
+                "47": 9,
+                "48": 4,
+                "49": 2,
+                "50": 1,
+                "53": 5,
+                "54": 1,
+                "58": 6,
+                "59": 38,
+                "60": 9.8,
+                "61": 49,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910002
+            ],
+            "opponentProTeamId": 20,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 25,
+            "slotCategoryId": 2,
+            "player": {
+              "lastName": "McCoy",
+              "percentOwned": 99.79079,
+              "lastNewsDate": "2018-01-07T22:35:24.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "25",
+              "isIREligible": false,
+              "playerRatingSeason": 193,
+              "value": -1,
+              "playerId": 12514,
+              "percentChange": -0.02504,
+              "lastVideoDate": "2017-12-12T08:07:21.100Z",
+              "percentStarted": 91.6318,
+              "droppable": true,
+              "firstName": "LeSean",
+              "defaultPositionId": 2,
+              "positionRank": 7,
+              "healthStatus": 0,
+              "draftRank": 9.9,
+              "totalPoints": 193,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 2,
+              "tickerId": 2268582,
+              "sportsId": 12514,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 8,
+              "appliedStats": {
+                "28": 8
+              },
+              "rawStats": {
+                "23": 20,
+                "24": 81,
+                "27": 16,
+                "28": 8,
+                "29": 4,
+                "30": 3,
+                "31": 1,
+                "33": 4,
+                "34": 2,
+                "39": 4.05,
+                "40": 81,
+                "41": 1,
+                "42": 7,
+                "47": 1,
+                "53": 1,
+                "58": 3,
+                "60": 7,
+                "61": 7,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370911007
+            ],
+            "opponentProTeamId": 24,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 20,
+            "slotCategoryId": 2,
+            "player": {
+              "lastName": "Anderson",
+              "percentOwned": 84.43114,
+              "lastNewsDate": "2018-01-11T05:34:25.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "22",
+              "isIREligible": false,
+              "playerRatingSeason": 132,
+              "value": -1,
+              "playerId": 16040,
+              "percentChange": 0.59655,
+              "lastVideoDate": "2017-12-31T13:41:28.710Z",
+              "percentStarted": 30.33932,
+              "droppable": true,
+              "firstName": "C.J.",
+              "defaultPositionId": 2,
+              "positionRank": 19,
+              "healthStatus": 0,
+              "draftRank": 74.4,
+              "totalPoints": 132,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 7,
+              "tickerId": 2576853,
+              "sportsId": 16040,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 12,
+              "appliedStats": {
+                "43": 6,
+                "48": 6
+              },
+              "rawStats": {
+                "41": 5,
+                "42": 62,
+                "43": 1,
+                "47": 12,
+                "48": 6,
+                "49": 3,
+                "50": 2,
+                "51": 1,
+                "53": 5,
+                "54": 1,
+                "58": 13,
+                "60": 12.4,
+                "61": 62,
+                "67": 1,
+                "68": 1,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910010
+            ],
+            "opponentProTeamId": 10,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 21,
+            "slotCategoryId": 4,
+            "player": {
+              "lastName": "Cooper",
+              "percentOwned": 88.54167,
+              "lastNewsDate": "2018-01-01T02:54:50.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "89",
+              "isIREligible": false,
+              "playerRatingSeason": 102,
+              "value": -1,
+              "playerId": 17677,
+              "percentChange": -0.15802,
+              "lastVideoDate": "2017-12-24T22:33:23.657Z",
+              "percentStarted": 52.60417,
+              "droppable": true,
+              "firstName": "Amari",
+              "defaultPositionId": 3,
+              "positionRank": 30,
+              "healthStatus": 0,
+              "draftRank": 23.8,
+              "totalPoints": 102,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 13,
+              "tickerId": 2976499,
+              "sportsId": 2976499,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 6,
+              "appliedStats": {
+                "48": 6
+              },
+              "rawStats": {
+                "23": 1,
+                "24": -3,
+                "39": -3,
+                "40": -3,
+                "41": 4,
+                "42": 63,
+                "47": 12,
+                "48": 6,
+                "49": 3,
+                "50": 2,
+                "51": 1,
+                "53": 4,
+                "58": 4,
+                "60": 15.75,
+                "61": 63,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910009
+            ],
+            "opponentProTeamId": 9,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 31,
+            "slotCategoryId": 4,
+            "player": {
+              "lastName": "Baldwin",
+              "percentOwned": 98.97331,
+              "lastNewsDate": "2018-02-01T00:01:16.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "89",
+              "isIREligible": false,
+              "playerRatingSeason": 142,
+              "value": -1,
+              "playerId": 14221,
+              "percentChange": 0.21554,
+              "lastVideoDate": "2017-12-19T05:43:15.180Z",
+              "percentStarted": 80.28747,
+              "droppable": true,
+              "firstName": "Doug",
+              "defaultPositionId": 3,
+              "positionRank": 13,
+              "healthStatus": 0,
+              "draftRank": 21.9,
+              "totalPoints": 142,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 26,
+              "tickerId": 2266132,
+              "sportsId": 14221,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 0,
+              "appliedStats": {},
+              "rawStats": {
+                "41": 3,
+                "42": 8,
+                "47": 1,
+                "53": 3,
+                "58": 8,
+                "60": 2.66667,
+                "61": 8,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910009
+            ],
+            "opponentProTeamId": 9,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 3,
+            "slotCategoryId": 6,
+            "player": {
+              "lastName": "Graham",
+              "percentOwned": 97.60479,
+              "lastNewsDate": "2018-01-06T21:30:04.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "80",
+              "isIREligible": false,
+              "playerRatingSeason": 107,
+              "value": -1,
+              "playerId": 13232,
+              "percentChange": -0.0055,
+              "lastVideoDate": "2017-12-24T08:57:37.117Z",
+              "percentStarted": 76.84631,
+              "droppable": true,
+              "firstName": "Jimmy",
+              "defaultPositionId": 4,
+              "positionRank": 4,
+              "healthStatus": 0,
+              "draftRank": 65.7,
+              "totalPoints": 107,
+              "eligibleSlotCategoryIds": [
+                6,
+                23,
+                20
+              ],
+              "proTeamId": 9,
+              "tickerId": 2466958,
+              "sportsId": 13232,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 6,
+              "appliedStats": {
+                "48": 6
+              },
+              "rawStats": {
+                "41": 6,
+                "42": 66,
+                "47": 13,
+                "48": 6,
+                "49": 3,
+                "50": 2,
+                "51": 1,
+                "53": 6,
+                "54": 1,
+                "58": 11,
+                "59": 30,
+                "60": 11,
+                "61": 66,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910028
+            ],
+            "opponentProTeamId": 21,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 19,
+            "slotCategoryId": 23,
+            "player": {
+              "lastName": "Pryor Sr.",
+              "percentOwned": 42.99517,
+              "lastNewsDate": "2018-02-02T19:57:09.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "11",
+              "isIREligible": false,
+              "playerRatingSeason": 27,
+              "value": -1,
+              "playerId": 14851,
+              "percentChange": -0.82667,
+              "lastVideoDate": "2017-11-01T05:55:31.210Z",
+              "percentStarted": 2.57649,
+              "droppable": true,
+              "firstName": "Terrelle",
+              "defaultPositionId": 3,
+              "positionRank": 108,
+              "healthStatus": 2,
+              "draftRank": 32.2,
+              "totalPoints": 27,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 20,
+              "tickerId": 2310660,
+              "sportsId": 14851,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 1,
+              "appliedStats": {
+                "99": 1
+              },
+              "rawStats": {
+                "99": 1,
+                "100": 2,
+                "107": 28,
+                "108": 38,
+                "109": 66,
+                "110": 22,
+                "111": 13,
+                "112": 2,
+                "113": 2,
+                "114": 108,
+                "115": 11,
+                "116": 10,
+                "117": 4,
+                "118": 1,
+                "120": 19,
+                "121": 1,
+                "126": 19,
+                "127": 344,
+                "131": 1,
+                "137": 344
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370911016
+            ],
+            "opponentProTeamId": 18,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 2,
+            "slotCategoryId": 16,
+            "player": {
+              "lastName": "D/ST",
+              "percentChange": 0.93855,
+              "lastVideoDate": "2015-12-28T07:06:08.830Z",
+              "percentOwned": 89.12037,
+              "lastNewsDate": "1970-01-01T00:00:00.000Z",
+              "percentStarted": 70.37037,
+              "universeId": 2,
+              "isActive": true,
+              "droppable": true,
+              "firstName": "Vikings",
+              "defaultPositionId": 16,
+              "positionRank": 11,
+              "healthStatus": 0,
+              "draftRank": 125,
+              "totalPoints": 128,
+              "eligibleSlotCategoryIds": [
+                16,
+                20
+              ],
+              "proTeamId": 16,
+              "isIREligible": false,
+              "playerRatingSeason": 128,
+              "tickerId": 0,
+              "sportsId": 60016,
+              "value": -1,
+              "gameStarterStatus": -2147483648,
+              "playerId": 60016
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 2,
+              "appliedStats": {
+                "80": 3,
+                "85": -1
+              },
+              "rawStats": {
+                "80": 1,
+                "81": 2,
+                "82": 1,
+                "83": 1,
+                "84": 2,
+                "85": 1,
+                "87": 1,
+                "88": 1,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910014
+            ],
+            "opponentProTeamId": 14,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 9,
+            "slotCategoryId": 17,
+            "player": {
+              "lastName": "Vinatieri",
+              "percentOwned": 25,
+              "lastNewsDate": "2018-02-22T19:03:43.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "4",
+              "isIREligible": false,
+              "playerRatingSeason": 120,
+              "value": -1,
+              "playerId": 1097,
+              "percentChange": -1.5625,
+              "lastVideoDate": "1970-01-01T00:00:00.000Z",
+              "percentStarted": 13.23529,
+              "droppable": true,
+              "firstName": "Adam",
+              "defaultPositionId": 5,
+              "positionRank": 16,
+              "healthStatus": 0,
+              "draftRank": 134.2,
+              "totalPoints": 120,
+              "eligibleSlotCategoryIds": [
+                17,
+                20
+              ],
+              "proTeamId": 11,
+              "tickerId": 1868084,
+              "sportsId": 1097,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 4,
+              "appliedStats": {
+                "28": 3,
+                "48": 1
+              },
+              "rawStats": {
+                "23": 15,
+                "24": 30,
+                "27": 6,
+                "28": 3,
+                "29": 1,
+                "30": 1,
+                "33": 3,
+                "34": 1,
+                "39": 2,
+                "40": 30,
+                "41": 3,
+                "42": 11,
+                "47": 2,
+                "48": 1,
+                "53": 3,
+                "58": 4,
+                "59": 6,
+                "60": 3.66667,
+                "61": 11,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910008
+            ],
+            "opponentProTeamId": 22,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 4,
+            "slotCategoryId": 20,
+            "player": {
+              "lastName": "Abdullah",
+              "percentOwned": 66.01307,
+              "lastNewsDate": "2018-01-01T18:45:43.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "21",
+              "isIREligible": false,
+              "playerRatingSeason": 88,
+              "value": -1,
+              "playerId": 17580,
+              "percentChange": -0.78229,
+              "lastVideoDate": "2017-12-03T17:14:24.620Z",
+              "percentStarted": 5.88235,
+              "droppable": true,
+              "firstName": "Ameer",
+              "defaultPositionId": 2,
+              "positionRank": 40,
+              "healthStatus": 0,
+              "draftRank": 81.2,
+              "totalPoints": 88,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 8,
+              "tickerId": 2576336,
+              "sportsId": 2576336,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 5,
+              "appliedStats": {
+                "28": 1,
+                "48": 4
+              },
+              "rawStats": {
+                "23": 8,
+                "24": 16,
+                "27": 3,
+                "28": 1,
+                "33": 1,
+                "39": 2,
+                "40": 16,
+                "41": 4,
+                "42": 42,
+                "47": 8,
+                "48": 4,
+                "49": 2,
+                "50": 1,
+                "53": 4,
+                "58": 6,
+                "60": 10.5,
+                "61": 42,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910003
+            ],
+            "opponentProTeamId": 3,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 9,
+            "slotCategoryId": 20,
+            "player": {
+              "lastName": "Coleman",
+              "percentOwned": 82.41107,
+              "lastNewsDate": "2018-01-14T01:21:02.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "26",
+              "isIREligible": false,
+              "playerRatingSeason": 130,
+              "value": -1,
+              "playerId": 17689,
+              "percentChange": -1.28278,
+              "lastVideoDate": "2017-12-07T16:16:35.210Z",
+              "percentStarted": 24.90119,
+              "droppable": true,
+              "firstName": "Tevin",
+              "defaultPositionId": 2,
+              "positionRank": 21,
+              "healthStatus": 0,
+              "draftRank": 94.6,
+              "totalPoints": 130,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 1,
+              "tickerId": 2979477,
+              "sportsId": 2979477,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 14,
+              "appliedStats": {
+                "43": 6,
+                "48": 8
+              },
+              "rawStats": {
+                "41": 6,
+                "42": 86,
+                "43": 1,
+                "45": 1,
+                "46": 1,
+                "47": 17,
+                "48": 8,
+                "49": 4,
+                "50": 3,
+                "51": 1,
+                "53": 6,
+                "54": 1,
+                "58": 8,
+                "59": 35,
+                "60": 14.33333,
+                "61": 86,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910028
+            ],
+            "opponentProTeamId": 28,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 7,
+            "slotCategoryId": 20,
+            "player": {
+              "lastName": "Agholor",
+              "percentOwned": 64.97462,
+              "lastNewsDate": "2018-02-05T05:15:16.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "13",
+              "isIREligible": false,
+              "playerRatingSeason": 124,
+              "value": -1,
+              "playerId": 17668,
+              "percentChange": -0.53219,
+              "lastVideoDate": "2017-10-28T06:35:17.427Z",
+              "percentStarted": 25.88832,
+              "droppable": true,
+              "firstName": "Nelson",
+              "defaultPositionId": 3,
+              "positionRank": 20,
+              "healthStatus": 0,
+              "draftRank": 109.5,
+              "totalPoints": 124,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 21,
+              "tickerId": 2971618,
+              "sportsId": 2971618,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 2,
+              "appliedStats": {
+                "48": 2
+              },
+              "rawStats": {
+                "41": 1,
+                "42": 21,
+                "47": 4,
+                "48": 2,
+                "49": 1,
+                "53": 1,
+                "58": 4,
+                "59": 7,
+                "60": 21,
+                "61": 21,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910002
+            ],
+            "opponentProTeamId": 20,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 26,
+            "slotCategoryId": 20,
+            "player": {
+              "lastName": "Jones",
+              "percentOwned": 34.84163,
+              "lastNewsDate": "2018-01-17T21:20:51.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "11",
+              "isIREligible": false,
+              "playerRatingSeason": 38,
+              "value": -1,
+              "playerId": 18223,
+              "percentChange": -0.69891,
+              "lastVideoDate": "2017-12-09T19:29:26.600Z",
+              "percentStarted": 2.5641,
+              "droppable": true,
+              "firstName": "Zay",
+              "defaultPositionId": 3,
+              "positionRank": 92,
+              "healthStatus": 0,
+              "draftRank": 116.7,
+              "totalPoints": 38,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 2,
+              "tickerId": 3059722,
+              "sportsId": 3059722,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 6,
+              "appliedStats": {
+                "48": 6
+              },
+              "rawStats": {
+                "41": 2,
+                "42": 61,
+                "47": 12,
+                "48": 6,
+                "49": 3,
+                "50": 2,
+                "51": 1,
+                "53": 2,
+                "58": 3,
+                "59": 41,
+                "60": 30.5,
+                "61": 61,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910002
+            ],
+            "opponentProTeamId": 20,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 26,
+            "slotCategoryId": 20,
+            "player": {
+              "lastName": "Matthews",
+              "percentOwned": 46.32911,
+              "lastNewsDate": "2017-12-14T19:41:12.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "80",
+              "isIREligible": false,
+              "playerRatingSeason": 30,
+              "value": -1,
+              "playerId": 16763,
+              "percentChange": 0.55855,
+              "lastVideoDate": "2017-08-20T00:14:38.970Z",
+              "percentStarted": 2.91139,
+              "droppable": true,
+              "firstName": "Jordan",
+              "defaultPositionId": 3,
+              "positionRank": 102,
+              "healthStatus": 2,
+              "draftRank": 122.5,
+              "totalPoints": 30,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 17,
+              "tickerId": 2511567,
+              "sportsId": 16763,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 0,
+              "appliedStats": {},
+              "rawStats": {
+                "23": 2,
+                "24": 6,
+                "27": 1,
+                "39": 3,
+                "40": 6,
+                "66": 1,
+                "68": 1,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370911016
+            ],
+            "opponentProTeamId": 18,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 16,
+            "slotCategoryId": 20,
+            "player": {
+              "lastName": "Murray",
+              "percentOwned": 81.8,
+              "lastNewsDate": "2018-01-23T01:51:07.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "25",
+              "isIREligible": false,
+              "playerRatingSeason": 130,
+              "value": -1,
+              "playerId": 15920,
+              "percentChange": 1.76008,
+              "lastVideoDate": "2017-12-23T18:16:16.800Z",
+              "percentStarted": 31.6,
+              "droppable": true,
+              "firstName": "Latavius",
+              "defaultPositionId": 2,
+              "positionRank": 21,
+              "healthStatus": 0,
+              "draftRank": 140.9,
+              "totalPoints": 130,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 16,
+              "tickerId": 2312251,
+              "sportsId": 15920,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 3,
+              "appliedStats": {
+                "48": 3
+              },
+              "rawStats": {
+                "41": 3,
+                "42": 34,
+                "47": 6,
+                "48": 3,
+                "49": 1,
+                "50": 1,
+                "53": 3,
+                "58": 4,
+                "60": 11.33333,
+                "61": 34,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910003
+            ],
+            "opponentProTeamId": 1,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 11,
+            "slotCategoryId": 20,
+            "player": {
+              "lastName": "Wright",
+              "percentOwned": 18.25658,
+              "lastNewsDate": "2017-12-31T21:57:51.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "13",
+              "isIREligible": false,
+              "playerRatingSeason": 60,
+              "value": -1,
+              "playerId": 14909,
+              "percentChange": -1.24489,
+              "lastVideoDate": "2017-12-24T09:02:50.697Z",
+              "percentStarted": 1.64474,
+              "droppable": true,
+              "firstName": "Kendall",
+              "defaultPositionId": 3,
+              "positionRank": 63,
+              "healthStatus": 0,
+              "draftRank": 152,
+              "totalPoints": 60,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 16,
+              "tickerId": 2309453,
+              "sportsId": 14909,
+              "gameStarterStatus": -2147483648
+            }
+          }
+        ],
+        "teamId": 4,
+        "appliedActiveProjectedTotal": 0,
+        "team": {
+          "division": {
+            "size": 3,
+            "divisionName": "D",
+            "divisionId": 3
+          },
+          "teamAbbrev": "SUCH",
+          "waiverRank": 3,
+          "teamId": 4,
+          "teamLocation": "Team",
+          "teamNickname": "Suchma",
+          "divisionStanding": 2,
+          "overallStanding": 10
+        },
+        "appliedInactiveProjectedTotal": 0
+      },
+      {
+        "appliedActiveRealTotal": 87,
+        "appliedInactiveRealTotal": 40,
+        "slots": [
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 10,
+              "appliedStats": {
+                "4": 4,
+                "8": 9,
+                "20": -2,
+                "28": 3,
+                "72": -4
+              },
+              "rawStats": {
+                "0": 40,
+                "1": 23,
+                "2": 17,
+                "3": 240,
+                "4": 1,
+                "5": 48,
+                "6": 24,
+                "7": 12,
+                "8": 9,
+                "9": 4,
+                "10": 2,
+                "11": 4,
+                "12": 2,
+                "13": 3,
+                "14": 1,
+                "20": 1,
+                "21": 0.575,
+                "22": 240,
+                "23": 4,
+                "24": 30,
+                "27": 6,
+                "28": 3,
+                "29": 1,
+                "30": 1,
+                "39": 7.5,
+                "40": 30,
+                "64": 4,
+                "65": 2,
+                "68": 2,
+                "69": 2,
+                "72": 2,
+                "73": 3,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910028
+            ],
+            "opponentProTeamId": 21,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 10,
+            "slotCategoryId": 0,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Cousins",
+              "percentOwned": 92.67016,
+              "lastNewsDate": "2018-02-04T21:00:46.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "8",
+              "isIREligible": false,
+              "playerRatingSeason": 263,
+              "value": -1,
+              "playerId": 14880,
+              "percentChange": 0.65627,
+              "lastVideoDate": "2018-03-09T14:51:21.613Z",
+              "percentStarted": 56.02094,
+              "droppable": true,
+              "firstName": "Kirk",
+              "defaultPositionId": 1,
+              "positionRank": 6,
+              "healthStatus": 0,
+              "draftRank": 85.6,
+              "totalPoints": 263,
+              "eligibleSlotCategoryIds": [
+                0,
+                20
+              ],
+              "proTeamId": 16,
+              "tickerId": 2271856,
+              "sportsId": 14880,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 18,
+              "appliedStats": {
+                "25": 6,
+                "28": 10,
+                "48": 2
+              },
+              "rawStats": {
+                "23": 26,
+                "24": 100,
+                "25": 1,
+                "27": 20,
+                "28": 10,
+                "29": 5,
+                "30": 4,
+                "31": 2,
+                "32": 1,
+                "33": 5,
+                "34": 2,
+                "37": 1,
+                "39": 3.84615,
+                "40": 100,
+                "41": 3,
+                "42": 24,
+                "47": 4,
+                "48": 2,
+                "49": 1,
+                "53": 3,
+                "58": 3,
+                "59": 27,
+                "60": 8,
+                "61": 24,
+                "66": 1,
+                "68": 1,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910034
+            ],
+            "opponentProTeamId": 34,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 12,
+            "slotCategoryId": 2,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Fournette",
+              "percentOwned": 99.65035,
+              "lastNewsDate": "2018-01-22T00:16:18.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "27",
+              "isIREligible": false,
+              "playerRatingSeason": 183,
+              "value": -1,
+              "playerId": 18218,
+              "percentChange": -0.02498,
+              "lastVideoDate": "2017-12-30T06:32:22.127Z",
+              "percentStarted": 87.76224,
+              "droppable": true,
+              "firstName": "Leonard",
+              "defaultPositionId": 2,
+              "positionRank": 8,
+              "healthStatus": 0,
+              "draftRank": 19.6,
+              "totalPoints": 183,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 30,
+              "tickerId": 3115364,
+              "sportsId": 3115364,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 13,
+              "appliedStats": {
+                "28": 12,
+                "48": 1
+              },
+              "rawStats": {
+                "23": 22,
+                "24": 127,
+                "27": 25,
+                "28": 12,
+                "29": 6,
+                "30": 5,
+                "31": 2,
+                "32": 1,
+                "33": 4,
+                "34": 2,
+                "37": 1,
+                "39": 5.77273,
+                "40": 127,
+                "41": 3,
+                "42": 10,
+                "47": 2,
+                "48": 1,
+                "53": 3,
+                "58": 5,
+                "60": 3.33333,
+                "61": 10,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370911016
+            ],
+            "opponentProTeamId": 18,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 16,
+            "slotCategoryId": 2,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Cook",
+              "percentOwned": 57.44681,
+              "lastNewsDate": "2018-01-22T17:13:09.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "33",
+              "isIREligible": false,
+              "playerRatingSeason": 51,
+              "value": -1,
+              "playerId": 18260,
+              "percentChange": -0.29454,
+              "lastVideoDate": "2017-10-02T16:29:20.763Z",
+              "percentStarted": 35.66363,
+              "droppable": true,
+              "firstName": "Dalvin",
+              "defaultPositionId": 2,
+              "positionRank": 62,
+              "healthStatus": 2,
+              "draftRank": 49.1,
+              "totalPoints": 51,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 16,
+              "tickerId": 3116593,
+              "sportsId": 3116593,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 18,
+              "appliedStats": {
+                "48": 18
+              },
+              "rawStats": {
+                "41": 11,
+                "42": 182,
+                "47": 36,
+                "48": 18,
+                "49": 9,
+                "50": 7,
+                "51": 3,
+                "52": 1,
+                "53": 11,
+                "54": 2,
+                "55": 1,
+                "56": 1,
+                "58": 11,
+                "60": 16.54545,
+                "61": 182,
+                "67": 1,
+                "68": 1,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910005
+            ],
+            "opponentProTeamId": 5,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 14,
+            "slotCategoryId": 4,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Brown",
+              "percentOwned": 93.12321,
+              "lastNewsDate": "2018-01-14T22:33:14.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "84",
+              "isIREligible": false,
+              "playerRatingSeason": 204,
+              "value": -1,
+              "playerId": 13934,
+              "percentChange": -0.30111,
+              "lastVideoDate": "2017-12-28T19:14:46.307Z",
+              "percentStarted": 73.35244,
+              "droppable": true,
+              "firstName": "Antonio",
+              "defaultPositionId": 3,
+              "positionRank": 2,
+              "healthStatus": 0,
+              "draftRank": 3.4,
+              "totalPoints": 204,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 23,
+              "tickerId": 2276860,
+              "sportsId": 13934,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 11,
+              "appliedStats": {
+                "43": 6,
+                "48": 5
+              },
+              "rawStats": {
+                "41": 7,
+                "42": 55,
+                "43": 1,
+                "47": 11,
+                "48": 5,
+                "49": 2,
+                "50": 2,
+                "51": 1,
+                "53": 7,
+                "54": 1,
+                "58": 16,
+                "59": 4,
+                "60": 7.85714,
+                "61": 55,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910034
+            ],
+            "opponentProTeamId": 30,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 1,
+            "slotCategoryId": 4,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Hopkins",
+              "percentOwned": 97.46193,
+              "lastNewsDate": "2018-01-09T22:24:00.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "10",
+              "isIREligible": false,
+              "playerRatingSeason": 207,
+              "value": -1,
+              "playerId": 15795,
+              "percentChange": -0.00831,
+              "lastVideoDate": "2017-12-31T13:46:22.673Z",
+              "percentStarted": 84.43316,
+              "droppable": true,
+              "firstName": "DeAndre",
+              "defaultPositionId": 3,
+              "positionRank": 1,
+              "healthStatus": 2,
+              "draftRank": 28.7,
+              "totalPoints": 207,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 34,
+              "tickerId": 2512410,
+              "sportsId": 15795,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 7,
+              "appliedStats": {
+                "48": 7
+              },
+              "rawStats": {
+                "41": 7,
+                "42": 76,
+                "47": 15,
+                "48": 7,
+                "49": 3,
+                "50": 3,
+                "51": 1,
+                "53": 7,
+                "54": 1,
+                "58": 9,
+                "60": 10.85714,
+                "61": 76,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910010
+            ],
+            "opponentProTeamId": 13,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 24,
+            "slotCategoryId": 6,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Walker",
+              "percentOwned": 93.36493,
+              "lastNewsDate": "2018-01-14T06:59:49.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "82",
+              "isIREligible": false,
+              "playerRatingSeason": 95,
+              "value": -1,
+              "playerId": 9761,
+              "percentChange": -0.60394,
+              "lastVideoDate": "2017-11-10T09:17:38.600Z",
+              "percentStarted": 66.58768,
+              "droppable": true,
+              "firstName": "Delanie",
+              "defaultPositionId": 4,
+              "positionRank": 6,
+              "healthStatus": 0,
+              "draftRank": 83.1,
+              "totalPoints": 95,
+              "eligibleSlotCategoryIds": [
+                6,
+                23,
+                20
+              ],
+              "proTeamId": 10,
+              "tickerId": 2080315,
+              "sportsId": 9761,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 5,
+              "appliedStats": {
+                "44": 2,
+                "48": 3
+              },
+              "rawStats": {
+                "41": 3,
+                "42": 38,
+                "44": 1,
+                "47": 7,
+                "48": 3,
+                "49": 1,
+                "50": 1,
+                "53": 3,
+                "58": 7,
+                "59": 17,
+                "60": 12.66667,
+                "61": 38,
+                "62": 1,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910028
+            ],
+            "opponentProTeamId": 28,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 7,
+            "slotCategoryId": 23,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Jeffery",
+              "percentOwned": 96.43606,
+              "lastNewsDate": "2018-02-21T23:58:55.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "17",
+              "isIREligible": false,
+              "playerRatingSeason": 132,
+              "value": -1,
+              "playerId": 14912,
+              "percentChange": 0.01421,
+              "lastVideoDate": "2017-12-18T16:51:24.650Z",
+              "percentStarted": 67.08595,
+              "droppable": true,
+              "firstName": "Alshon",
+              "defaultPositionId": 3,
+              "positionRank": 15,
+              "healthStatus": 2,
+              "draftRank": 35,
+              "totalPoints": 132,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 21,
+              "tickerId": 2468993,
+              "sportsId": 14912,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 2,
+              "appliedStats": {
+                "99": 3,
+                "132": -1
+              },
+              "rawStats": {
+                "99": 3,
+                "100": 6,
+                "106": 1,
+                "107": 20,
+                "108": 53,
+                "109": 73,
+                "110": 24,
+                "111": 14,
+                "112": 3,
+                "113": 2,
+                "114": 86,
+                "115": 10,
+                "116": 8,
+                "117": 3,
+                "118": 1,
+                "120": 27,
+                "122": 1,
+                "126": 27,
+                "127": 371,
+                "132": 1,
+                "137": 371
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370907017
+            ],
+            "opponentProTeamId": 17,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 1,
+            "slotCategoryId": 16,
+            "isKeeper": false,
+            "player": {
+              "lastName": "D/ST",
+              "percentChange": 1.88277,
+              "lastVideoDate": "2017-10-31T06:22:36.263Z",
+              "percentOwned": 54.1555,
+              "lastNewsDate": "1970-01-01T00:00:00.000Z",
+              "percentStarted": 35.38874,
+              "universeId": 1,
+              "isActive": true,
+              "droppable": true,
+              "firstName": "Chiefs",
+              "defaultPositionId": 16,
+              "positionRank": 16,
+              "healthStatus": 0,
+              "draftRank": 121.3,
+              "totalPoints": 101,
+              "eligibleSlotCategoryIds": [
+                16,
+                20
+              ],
+              "proTeamId": 12,
+              "isIREligible": false,
+              "playerRatingSeason": 101,
+              "tickerId": 0,
+              "sportsId": 60012,
+              "value": -1,
+              "gameStarterStatus": -2147483648,
+              "playerId": 60012
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 3,
+              "appliedStats": {
+                "86": 3
+              },
+              "rawStats": {
+                "86": 3,
+                "87": 3,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910005
+            ],
+            "opponentProTeamId": 5,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 16,
+            "slotCategoryId": 17,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Boswell",
+              "percentOwned": 76.57005,
+              "lastNewsDate": "2018-01-15T01:53:31.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "9",
+              "isIREligible": false,
+              "playerRatingSeason": 156,
+              "value": -1,
+              "playerId": 17175,
+              "percentChange": 0.34783,
+              "lastVideoDate": "1970-01-01T00:00:00.000Z",
+              "percentStarted": 64.25121,
+              "droppable": true,
+              "firstName": "Chris",
+              "defaultPositionId": 5,
+              "positionRank": 6,
+              "healthStatus": 0,
+              "draftRank": 139.4,
+              "totalPoints": 156,
+              "eligibleSlotCategoryIds": [
+                17,
+                20
+              ],
+              "proTeamId": 23,
+              "tickerId": 2468469,
+              "sportsId": 17372,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 8,
+              "appliedStats": {
+                "48": 8
+              },
+              "rawStats": {
+                "41": 6,
+                "42": 81,
+                "47": 16,
+                "48": 8,
+                "49": 4,
+                "50": 3,
+                "51": 1,
+                "53": 6,
+                "54": 1,
+                "58": 10,
+                "60": 13.5,
+                "61": 81,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910025
+            ],
+            "opponentProTeamId": 29,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 27,
+            "slotCategoryId": 20,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Garcon",
+              "percentOwned": 41.8124,
+              "lastNewsDate": "2018-01-08T20:20:33.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "15",
+              "isIREligible": false,
+              "playerRatingSeason": 46,
+              "value": -1,
+              "playerId": 11439,
+              "percentChange": 1.22417,
+              "lastVideoDate": "2017-11-05T07:54:02.827Z",
+              "percentStarted": 9.53895,
+              "droppable": true,
+              "firstName": "Pierre",
+              "defaultPositionId": 3,
+              "positionRank": 76,
+              "healthStatus": 2,
+              "draftRank": 69,
+              "totalPoints": 46,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 25,
+              "tickerId": 2240693,
+              "sportsId": 11439,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 13,
+              "appliedStats": {
+                "28": 6,
+                "43": 6,
+                "48": 1
+              },
+              "rawStats": {
+                "23": 18,
+                "24": 65,
+                "27": 13,
+                "28": 6,
+                "29": 3,
+                "30": 2,
+                "31": 1,
+                "33": 3,
+                "34": 1,
+                "39": 3.61111,
+                "40": 65,
+                "41": 2,
+                "42": 17,
+                "43": 1,
+                "47": 3,
+                "48": 1,
+                "53": 2,
+                "58": 2,
+                "60": 8.5,
+                "61": 17,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910025
+            ],
+            "opponentProTeamId": 25,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 24,
+            "slotCategoryId": 20,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Stewart",
+              "percentOwned": 58.45411,
+              "lastNewsDate": "2018-02-28T16:35:42.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "28",
+              "isIREligible": false,
+              "playerRatingSeason": 101,
+              "value": -1,
+              "playerId": 11247,
+              "percentChange": -0.24155,
+              "lastVideoDate": "2017-12-16T16:00:11.077Z",
+              "percentStarted": 12.31884,
+              "droppable": true,
+              "firstName": "Jonathan",
+              "defaultPositionId": 2,
+              "positionRank": 33,
+              "healthStatus": 0,
+              "draftRank": 109.8,
+              "totalPoints": 101,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 19,
+              "tickerId": 2185257,
+              "sportsId": 11247,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 7,
+              "appliedStats": {
+                "25": 6,
+                "28": 1
+              },
+              "rawStats": {
+                "23": 5,
+                "24": 10,
+                "25": 1,
+                "27": 2,
+                "28": 1,
+                "33": 1,
+                "39": 2,
+                "40": 10,
+                "41": 1,
+                "42": 2,
+                "53": 1,
+                "58": 1,
+                "59": 6,
+                "60": 2,
+                "61": 2,
+                "114": 46,
+                "116": 4,
+                "117": 1,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910008
+            ],
+            "opponentProTeamId": 8,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 27,
+            "slotCategoryId": 20,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Williams",
+              "percentOwned": 28.65275,
+              "lastNewsDate": "2018-01-04T01:21:47.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "33",
+              "isIREligible": false,
+              "playerRatingSeason": 50,
+              "value": -1,
+              "playerId": 16024,
+              "percentChange": -0.40708,
+              "lastVideoDate": "2017-12-24T09:03:45.207Z",
+              "percentStarted": 4.74383,
+              "droppable": true,
+              "firstName": "Kerwynn",
+              "defaultPositionId": 2,
+              "positionRank": 64,
+              "healthStatus": 0,
+              "draftRank": 170,
+              "totalPoints": 50,
+              "eligibleSlotCategoryIds": [
+                2,
+                23,
+                20
+              ],
+              "proTeamId": 22,
+              "tickerId": 2517377,
+              "sportsId": 16024,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 7,
+              "appliedStats": {
+                "48": 7
+              },
+              "rawStats": {
+                "41": 5,
+                "42": 71,
+                "47": 14,
+                "48": 7,
+                "49": 3,
+                "50": 2,
+                "51": 1,
+                "53": 5,
+                "54": 1,
+                "58": 9,
+                "60": 14.2,
+                "61": 71,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910010
+            ],
+            "opponentProTeamId": 13,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 14,
+            "slotCategoryId": 20,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Matthews",
+              "percentOwned": 58.90411,
+              "lastNewsDate": "2018-01-16T05:35:05.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "18",
+              "isIREligible": false,
+              "playerRatingSeason": 97,
+              "value": -1,
+              "playerId": 15102,
+              "percentChange": -0.93362,
+              "lastVideoDate": "2017-12-18T21:46:52.600Z",
+              "percentStarted": 15.06849,
+              "droppable": true,
+              "firstName": "Rishard",
+              "defaultPositionId": 3,
+              "positionRank": 37,
+              "healthStatus": 0,
+              "draftRank": 111.2,
+              "totalPoints": 97,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 10,
+              "tickerId": 2512131,
+              "sportsId": 15102,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 5,
+              "appliedStats": {
+                "48": 5
+              },
+              "rawStats": {
+                "23": 1,
+                "24": 5,
+                "27": 1,
+                "39": 5,
+                "40": 5,
+                "41": 4,
+                "42": 53,
+                "47": 10,
+                "48": 5,
+                "49": 2,
+                "50": 2,
+                "51": 1,
+                "53": 4,
+                "58": 5,
+                "60": 13.25,
+                "61": 53,
+                "156": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370911016
+            ],
+            "opponentProTeamId": 16,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": true,
+            "pvoRank": 7,
+            "slotCategoryId": 20,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Ginn Jr.",
+              "percentOwned": 47.53363,
+              "lastNewsDate": "2018-01-15T05:57:35.000Z",
+              "universeId": 2,
+              "isActive": true,
+              "jersey": "19",
+              "isIREligible": false,
+              "playerRatingSeason": 98,
+              "value": -1,
+              "playerId": 10453,
+              "percentChange": -1.37726,
+              "lastVideoDate": "2017-12-07T20:46:41.853Z",
+              "percentStarted": 8.07175,
+              "droppable": true,
+              "firstName": "Ted",
+              "defaultPositionId": 3,
+              "positionRank": 36,
+              "healthStatus": 0,
+              "draftRank": 113,
+              "totalPoints": 98,
+              "eligibleSlotCategoryIds": [
+                4,
+                23,
+                20
+              ],
+              "proTeamId": 18,
+              "tickerId": 2155745,
+              "sportsId": 10453,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 0,
+              "appliedStats": {},
+              "rawStats": {
+                "41": 2,
+                "42": 9,
+                "47": 1,
+                "53": 2,
+                "58": 3,
+                "59": 5,
+                "60": 4.5,
+                "61": 9,
+                "155": 1
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910008
+            ],
+            "opponentProTeamId": 22,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": true,
+            "pvoRank": 14,
+            "slotCategoryId": 20,
+            "isKeeper": false,
+            "player": {
+              "lastName": "Ebron",
+              "percentOwned": 58.13953,
+              "lastNewsDate": "2018-02-19T18:54:28.000Z",
+              "universeId": 1,
+              "isActive": true,
+              "jersey": "85",
+              "isIREligible": false,
+              "playerRatingSeason": 69,
+              "value": -1,
+              "playerId": 16732,
+              "percentChange": -2.14618,
+              "lastVideoDate": "2017-12-26T22:13:45.080Z",
+              "percentStarted": 21.26246,
+              "droppable": true,
+              "firstName": "Eric",
+              "defaultPositionId": 4,
+              "positionRank": 17,
+              "healthStatus": 0,
+              "draftRank": 135.7,
+              "totalPoints": 69,
+              "eligibleSlotCategoryIds": [
+                6,
+                23,
+                20
+              ],
+              "proTeamId": 11,
+              "tickerId": 2577100,
+              "sportsId": 16732,
+              "gameStarterStatus": -2147483648
+            }
+          },
+          {
+            "currentPeriodRealStats": {
+              "appliedStatTotal": 0,
+              "appliedStats": {
+                "99": 1,
+                "132": -1
+              },
+              "rawStats": {
+                "99": 1,
+                "100": 2,
+                "107": 30,
+                "108": 45,
+                "109": 75,
+                "110": 25,
+                "111": 15,
+                "112": 4,
+                "113": 3,
+                "114": 42,
+                "115": 1,
+                "116": 4,
+                "117": 1,
+                "120": 19,
+                "121": 1,
+                "126": 19,
+                "127": 392,
+                "132": 1,
+                "137": 392
+              }
+            },
+            "lockStatus": 4,
+            "currentPeriodProjectedStats": {},
+            "proGameIds": [
+              370910006
+            ],
+            "opponentProTeamId": 6,
+            "isQueuedWaiverLocked": false,
+            "isTradeLocked": false,
+            "watchList": false,
+            "pvoRank": 15,
+            "slotCategoryId": 20,
+            "isKeeper": false,
+            "player": {
+              "lastName": "D/ST",
+              "percentChange": 2.19994,
+              "lastVideoDate": "1970-01-01T00:00:00.000Z",
+              "percentOwned": 9.10973,
+              "lastNewsDate": "1970-01-01T00:00:00.000Z",
+              "percentStarted": 2.48447,
+              "universeId": 2,
+              "isActive": true,
+              "droppable": true,
+              "firstName": "Giants",
+              "defaultPositionId": 16,
+              "positionRank": 30,
+              "healthStatus": 0,
+              "draftRank": 151.6,
+              "totalPoints": 59,
+              "eligibleSlotCategoryIds": [
+                16,
+                20
+              ],
+              "proTeamId": 19,
+              "isIREligible": false,
+              "playerRatingSeason": 59,
+              "tickerId": 0,
+              "sportsId": 60019,
+              "value": -1,
+              "gameStarterStatus": -2147483648,
+              "playerId": 60019
+            }
+          }
+        ],
+        "teamId": 1,
+        "appliedActiveProjectedTotal": 0,
+        "team": {
+          "division": {
+            "size": 3,
+            "divisionName": "A",
+            "divisionId": 0
+          },
+          "teamAbbrev": "4A",
+          "waiverRank": 8,
+          "teamId": 1,
+          "teamLocation": "Vier",
+          "teamNickname": "Auberginen",
+          "divisionStanding": 1,
+          "logoType": "customValid",
+          "overallStanding": 1,
+          "logoUrl": "https://thumbs.dreamstime.com/b/vier-auberginen-10158390.jpg"
+        },
+        "appliedInactiveProjectedTotal": 0
+      }
+    ],
+    "matchupPeriodId": 1,
+    "scoringPeriodId": 1,
+    "allScoringPeriodsInMatchupPeriod": [
+      1
+    ],
+    "progames": {
+      "380906021": {
+        "gameId": 380906021,
+        "awayProTeamId": 1,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-07T00:20:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 21,
+        "status": 1
+      },
+      "380909005": {
+        "gameId": 380909005,
+        "awayProTeamId": 23,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T17:00:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 5,
+        "status": 1
+      },
+      "380909007": {
+        "gameId": 380909007,
+        "awayProTeamId": 26,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T20:25:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 7,
+        "status": 1
+      },
+      "380909009": {
+        "gameId": 380909009,
+        "awayProTeamId": 3,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-10T00:20:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 9,
+        "status": 1
+      },
+      "380909011": {
+        "gameId": 380909011,
+        "awayProTeamId": 4,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T17:00:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 11,
+        "status": 1
+      },
+      "380909015": {
+        "gameId": 380909015,
+        "awayProTeamId": 10,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T17:00:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 15,
+        "status": 1
+      },
+      "380909016": {
+        "gameId": 380909016,
+        "awayProTeamId": 25,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T17:00:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 16,
+        "status": 1
+      },
+      "380909017": {
+        "gameId": 380909017,
+        "awayProTeamId": 34,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T17:00:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 17,
+        "status": 1
+      },
+      "380909018": {
+        "gameId": 380909018,
+        "awayProTeamId": 27,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T17:00:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 18,
+        "status": 1
+      },
+      "380909019": {
+        "gameId": 380909019,
+        "awayProTeamId": 30,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T17:00:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 19,
+        "status": 1
+      },
+      "380909022": {
+        "gameId": 380909022,
+        "awayProTeamId": 28,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T20:25:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 22,
+        "status": 1
+      },
+      "380909024": {
+        "gameId": 380909024,
+        "awayProTeamId": 12,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T20:05:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 24,
+        "status": 1
+      },
+      "380909033": {
+        "gameId": 380909033,
+        "awayProTeamId": 2,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-09T17:00:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 33,
+        "status": 1
+      },
+      "380910008": {
+        "gameId": 380910008,
+        "awayProTeamId": 20,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-10T23:10:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 8,
+        "status": 1
+      },
+      "380910013": {
+        "gameId": 380910013,
+        "awayProTeamId": 14,
+        "period": 0,
+        "homeScore": 0,
+        "gameDate": "2018-09-11T02:20:00.000Z",
+        "awayScore": 0,
+        "timeRemainingInPeriod": "0:00",
+        "homeProTeamId": 13,
+        "status": 1
+      }
+    },
+    "homeTeamBonus": 0
+  }
+}

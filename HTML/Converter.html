@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Conversion for the Arduino IDE</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<style type="text/css">
+		body {
+			text-align: center;
+			max-width: 800px;
+			margin: 10px auto;
+			font-family: "Arial", Arial, sans;
+			background-color: #111111;
+		}
+
+		.desc {
+			width: 75%;
+		}
+
+		.container {
+			border-radius: 5px;
+			background-color: #dddddd;
+			position: absolute;
+			margin-top: 0px;
+			text-align: center;
+			width: 50%;
+			top: 50%;
+			padding: 20px;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.header {
+			color: #4CAF50;
+			font-family: "Arial", Arial, sans;
+			position: relative;
+			font-size: 500%;
+		}
+
+		.textbox {
+			border-radius: 12px;
+			margin-bottom: 30px;
+			width: 85%;
+		}
+
+		.convertButton {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			margin-top: 6px;
+			position: relative;
+		}
+
+		.convertButton:hover {
+			background-color: #45a049;
+		}
+
+		.convertButton:active {
+			position: relative;
+			top: 1px;
+		}
+
+		@media (max-width: 800px) {
+			.container {
+				width: 100%;
+				top: 0%;
+				transform: translate(-50%, -0%);
+				padding: 0;
+				border-radius: 0px;
+
+			}
+			.header {
+				font-size: 250%;
+			}
+			.textbox {
+				margin-bottom: 20px;
+			}
+			h2 {
+				font-size: 90%;
+			}
+			h3 {
+				font-size: 80%;
+			}
+			p {
+				font-size: 75%;
+			}
+			body {
+				background-color: #dddddd;
+			}
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var followingTextBlocks = '"html ="';
+			var textEndBlock = '";';
+
+			function convert() {
+				document.getElementById("htmlOutput").value = '';
+				var firstTextBlock = 'String html ="';
+				var followingTextBlocks = 'html +="';
+				var textEndBlock = '";';
+				var htmlInputText = $('#htmlInput').val();
+				var res = htmlInputText.replace(/"/g, '\\"');
+				res = res.trim();
+				res = res.replace(/\n/g, "\\\n")
+				//res = res.replace(/\s+/g, " ");
+				//alert(res);
+				res = res.split("$$");
+				for (i = 0; i < res.length; i++) {
+					if (i > 0) {
+						document.getElementById("htmlOutput").value += 'html += myVariable;';
+						document.getElementById("htmlOutput").value += '\n';
+					}
+					if (i == 0) {
+						document.getElementById("htmlOutput").value += firstTextBlock + res[i] + textEndBlock;
+						document.getElementById("htmlOutput").value += "\n";
+					} else {
+						document.getElementById("htmlOutput").value += followingTextBlocks + res[i] + textEndBlock;
+						document.getElementById("htmlOutput").value += "\n";
+					}
+				}
+			}
+			$(".convertButton").click(function() {
+				convert();
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<center>
+			<h class="header">Towerlight</h>
+		</center>
+		<h2>HTML Conversion for the Arduino IDE</h2>
+		<center>
+			<p class="desc">This will escape any double quotes (") and spilt it up so you can add in variables for each $$ you place in the code. You can then use it as a String variable for serving webpages in boards like the ESP8266, ESP32 or the Ethernet Shield.</p><br></center>
+		<textarea class="textbox" rows="10" cols="100" id="htmlInput" style="display: block;margin-left: auto;margin-right: auto;"></textarea>
+		<div style="clear: both; text-align: center;"></div>
+		<a href="#" style="text-decoration:none" class="convertButton">Convert</a>
+		<div id="resultArea">
+			<h3 style="display: block;margin-left: auto;margin-right: auto;">The code below 'should' compile fine in the Arduino IDE.</h3>
+			<textarea class="textbox" rows="10" cols="100" id="htmlOutput" style="display: block;margin-left: auto;margin-right: auto;"></textarea>
+		</div>
+	</div>
+</body>
+
+</html>
