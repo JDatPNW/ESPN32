@@ -3,6 +3,7 @@ extern String getSSIDPW;
 extern String getLeagueID;
 extern String getTeamID;
 extern String getSeasonID;
+extern int getStarters;
 extern String getUsername;
 extern String getESPNPW;
 String htmlConnected = "";
@@ -135,7 +136,6 @@ htmlAP +="\">\
   </div>\
 </body>";
 
-
 htmlConnected ="<!DOCTYPE html>\
 <html>\
 \
@@ -174,6 +174,7 @@ htmlConnected ="<!DOCTYPE html>\
     }\
 \
     input[type=text],\
+    input[type=number],\
     select,\
     textarea {\
       padding: 12px;\
@@ -214,6 +215,7 @@ htmlConnected ="<!DOCTYPE html>\
       display: table;\
       margin: 0 auto;\
     }\
+\
     @media (min-width: 800px) {\
       .container {\
         margin-top: 0px;\
@@ -255,33 +257,39 @@ htmlConnected += getSSIDPW;
 htmlConnected +="\">\
       </div>\
       <div class=\"row\">\
-        <label for=\"leagueid\">League ID</label> </br>\
-        <input type=\"text\" id=\"leagueid\" name=\"leagueid_input\" placeholder=\"";
-htmlConnected += getLeagueID;
-htmlConnected +="\">\
-      </div>\
-      <div class=\"row\">\
-        <label for=\"teamid\">Team ID</label> </br>\
-        <input type=\"text\" id=\"teamid\" name=\"teamid_input\" placeholder=\"";
-htmlConnected += getTeamID;
-htmlConnected +="\">\
-      </div>\
-      <div class=\"row\">\
-        <label for=\"seasonid\">Season</label> </br>\
-        <input type=\"text\" id=\"seasonid\" name=\"seasonid_input\" placeholder=\"";
-htmlConnected += getSeasonID;
-htmlConnected +="\">\
-      </div>\
-      <div class=\"row\">\
-        <label for=\"espnusername\">Pipeline Username</label> </br>\
+        <label for=\"espnusername\">ESPN Username</label> </br>\
         <input type=\"text\" id=\"espnusername\" name=\"espnusername_input\" placeholder=\"";
 htmlConnected += getUsername;
 htmlConnected +="\">\
       </div>\
       <div class=\"row\">\
-        <label for=\"espnpw\">Pipeline Password</label> </br>\
+        <label for=\"espnpw\">ESPN Password</label> </br>\
         <input type=\"text\" id=\"espnpw\" name=\"espnpw_input\" placeholder=\"";
 htmlConnected += getESPNPW;
+htmlConnected +="\">\
+      </div>\
+      <div class=\"row\">\
+        <label for=\"leagueid\">League ID</label> </br>\
+        <input type=\"number\" id=\"leagueid\" name=\"leagueid_input\" placeholder=\"";
+htmlConnected += getLeagueID;
+htmlConnected +="\">\
+      </div>\
+      <div class=\"row\">\
+        <label for=\"teamid\">Team ID</label> </br>\
+        <input type=\"number\" id=\"teamid\" name=\"teamid_input\" placeholder=\"";
+htmlConnected += getTeamID;
+htmlConnected +="\">\
+      </div>\
+      <div class=\"row\">\
+        <label for=\"seasonid\">Season</label> </br>\
+        <input type=\"number\" id=\"seasonid\" name=\"seasonid_input\" placeholder=\"";
+htmlConnected += getSeasonID;
+htmlConnected +="\">\
+      </div>\
+      <div class=\"row\">\
+        <label for=\"starters\">Number of Starters</label> </br>\
+        <input type=\"number\" id=\"starters\" name=\"starters_input\" placeholder=\"";
+htmlConnected += getStarters;
 htmlConnected +="\">\
       </div>\
       <div class=\"button\">\
@@ -291,6 +299,7 @@ htmlConnected +="\">\
     </form>\
   </div>\
 </body>";
+
 
 
 }

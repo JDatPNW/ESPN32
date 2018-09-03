@@ -10,6 +10,16 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 #include <DNSServer.h>
+//potentially important for screen: https://www.youtube.com/watch?v=WHl2oC8fqZU
+#include "SSD1306Wire.h" // legacy include: `#include "SSD1306.h"`
+#include "OLEDDisplayUi.h"
+//#include "images.h"
+
+//Check for TODO
+
+//254985 Public drafted league
+
+//Active Players check if played via "lockstatus" 0 is not yet 4 is it's over? search for lockstatus in json viewer. Players from 0-7 are starting, only check those
 
 Preferences preferences;
 IPAddress apIP(192, 168, 1, 1);
@@ -23,6 +33,7 @@ String getSSIDPW;
 String getLeagueID;
 String getTeamID;
 String getSeasonID;
+int getStarters;
 String getUsername;
 String getESPNPW;
 
@@ -38,6 +49,8 @@ const char * teamAbbrevAway;
 const char * teamScoreHome;
 const char * teamScoreAway;
 const char * week;
+int remainingHome; //matchupPeriodId is "game", scoreingPeriodId is actuall NFL week, so playoff multi week fantasy games differ in these two
+int remainingAway;
 
 
 String * htmlIndex;
@@ -119,19 +132,19 @@ void setup() {
 }
 
 void debugError(int httpCode) {
-  if (httpCode == 401){
+  if (httpCode == 401) {
     Serial.println("401 - Authentication Error!");
     errorMessage = "401 - Authentication Error!";
   }
-  else if (httpCode == 404){
+  else if (httpCode == 404) {
     Serial.println("404 - Not Found");
     errorMessage = "404 - Not Found";
   }
-  else if (httpCode == -1){
+  else if (httpCode == -1) {
     Serial.println("'-1' - HTTPC_ERROR_CONNECTION_REFUSED");
-      errorMessage = "'-1' - HTTPC_ERROR_CONNECTION_REFUSED";
+    errorMessage = "'-1' - HTTPC_ERROR_CONNECTION_REFUSED";
   }
-  else if ((WiFi.status() != WL_CONNECTED)){
+  else if ((WiFi.status() != WL_CONNECTED)) {
     Serial.println("'999' No Connection to the Internet");
     errorMessage = "'999' No Connection to the Internet";
   }
@@ -139,21 +152,21 @@ void debugError(int httpCode) {
 
 void requestLogic() {
   bool allRequestsWorked = true;
-    String requestUrl = URLBase + LeagueID + String() + TeamID + String() + SeasonID + String();
-    if (variablesInitialized && (WiFi.status() == WL_CONNECTED)) {
-      HTTPClient http;
-      http.setAuthorization(getUsername.c_str(), getESPNPW.c_str());
-      http.begin(requestUrl);
-      int httpCode = http.GET();
-      debugError(httpCode);
-      if (httpCode == HTTP_CODE_OK) {
-        doJSON(http.getString());
-      } else {
-        allRequestsWorked = false;
-      }
-      http.end();
+  String requestUrl = URLBase + LeagueID + String() + TeamID + String() + SeasonID + String();
+  if (variablesInitialized && (WiFi.status() == WL_CONNECTED)) {
+    HTTPClient http;
+    http.setAuthorization(getUsername.c_str(), getESPNPW.c_str());
+    http.begin(requestUrl);
+    int httpCode = http.GET();
+    debugError(httpCode);
+    if (httpCode == HTTP_CODE_OK) {
+      doJSON(http.getString());
+    } else {
+      allRequestsWorked = false;
     }
-  if (isError){
+    http.end();
+  }
+  if (isError) {
     printErrorToScreen();
   }
   if (allRequestsWorked) {
@@ -167,7 +180,7 @@ void handleIndex() {
 
 void doJSON(String json)
 {
-  const size_t bufferSize = 37*JSON_ARRAY_SIZE(1) + 8*JSON_ARRAY_SIZE(2) + 25*JSON_ARRAY_SIZE(3) + 2*JSON_ARRAY_SIZE(16) + 36*JSON_OBJECT_SIZE(0) + 13*JSON_OBJECT_SIZE(1) + 14*JSON_OBJECT_SIZE(2) + 40*JSON_OBJECT_SIZE(3) + JSON_OBJECT_SIZE(5) + JSON_OBJECT_SIZE(6) + 4*JSON_OBJECT_SIZE(7) + 4*JSON_OBJECT_SIZE(8) + 17*JSON_OBJECT_SIZE(9) + JSON_OBJECT_SIZE(10) + 18*JSON_OBJECT_SIZE(11) + 17*JSON_OBJECT_SIZE(12) + 4*JSON_OBJECT_SIZE(13) + 2*JSON_OBJECT_SIZE(14) + 2*JSON_OBJECT_SIZE(15) + 2*JSON_OBJECT_SIZE(16) + 2*JSON_OBJECT_SIZE(17) + 2*JSON_OBJECT_SIZE(18) + 3*JSON_OBJECT_SIZE(19) + 2*JSON_OBJECT_SIZE(20) + 2*JSON_OBJECT_SIZE(21) + JSON_OBJECT_SIZE(22) + 3*JSON_OBJECT_SIZE(24) + 29*JSON_OBJECT_SIZE(25) + JSON_OBJECT_SIZE(26) + 2*JSON_OBJECT_SIZE(27) + JSON_OBJECT_SIZE(33) + 34190;
+  const size_t bufferSize = 37 * JSON_ARRAY_SIZE(1) + 8 * JSON_ARRAY_SIZE(2) + 25 * JSON_ARRAY_SIZE(3) + 2 * JSON_ARRAY_SIZE(16) + 36 * JSON_OBJECT_SIZE(0) + 13 * JSON_OBJECT_SIZE(1) + 14 * JSON_OBJECT_SIZE(2) + 40 * JSON_OBJECT_SIZE(3) + JSON_OBJECT_SIZE(5) + JSON_OBJECT_SIZE(6) + 4 * JSON_OBJECT_SIZE(7) + 4 * JSON_OBJECT_SIZE(8) + 17 * JSON_OBJECT_SIZE(9) + JSON_OBJECT_SIZE(10) + 18 * JSON_OBJECT_SIZE(11) + 17 * JSON_OBJECT_SIZE(12) + 4 * JSON_OBJECT_SIZE(13) + 2 * JSON_OBJECT_SIZE(14) + 2 * JSON_OBJECT_SIZE(15) + 2 * JSON_OBJECT_SIZE(16) + 2 * JSON_OBJECT_SIZE(17) + 2 * JSON_OBJECT_SIZE(18) + 3 * JSON_OBJECT_SIZE(19) + 2 * JSON_OBJECT_SIZE(20) + 2 * JSON_OBJECT_SIZE(21) + JSON_OBJECT_SIZE(22) + 3 * JSON_OBJECT_SIZE(24) + 29 * JSON_OBJECT_SIZE(25) + JSON_OBJECT_SIZE(26) + 2 * JSON_OBJECT_SIZE(27) + JSON_OBJECT_SIZE(33) + 34190;
   DynamicJsonBuffer jsonBuffer(bufferSize);
   JsonObject& root = jsonBuffer.parseObject(json);
   //https://codebeautify.org/jsonviewer
@@ -177,14 +190,23 @@ void doJSON(String json)
   JsonObject& boxscore = root["boxscore"];
   JsonObject& teamAway = boxscore["teams"][0];
   JsonObject& teamHome = boxscore["teams"][1];
+  remainingAway = 0;
+  remainingHome = 0;
+  for (int i = 0; i < getStarters; i++) { //TODO -ASCII CODE
+    if (teamAway["slots"][i]["lockstatus"] == 0)
+      remainingAway++;
+  }
+  for (int i = 0; i < getStarters; i++) { //TODO -ASCII CODE
+    if (teamHome["slots"][i]["lockstatus"] == 0)
+      remainingHome++;
+  }
 
-  
   teamAbbrevHome = teamHome["team"]["teamAbbrev"];//boxscore/teams/0/team/teamabrev
-  teamAbbrevAway = teamAway["team"]["teamAbbrev"]; 
+  teamAbbrevAway = teamAway["team"]["teamAbbrev"];
   teamScoreHome = teamHome["appliedActiveRealTotal"];//boxscore/teams/0/appliedActiveRealTotal
   teamScoreAway = teamAway["appliedActiveRealTotal"];
   week = boxscore["scheduleItems"][0]["matchupPeriodId"];
-//String payload = http.getString();
+  //String payload = http.getString();
 }
 
 void initStaticVariables() {
@@ -193,6 +215,7 @@ void initStaticVariables() {
   getLeagueID = preferences.getString("getLeagueID");
   getTeamID = preferences.getString("getTeamID");
   getSeasonID = preferences.getString("getSeasonID");
+  getStarters = preferences.getInt("getStarters");
   getUsername = preferences.getString("getUsername");
   getESPNPW = preferences.getString("getESPNPW");
   if (getSSID == "" || getSSIDPW == "" || getLeagueID == "" || getUsername == "" || getESPNPW == "")
@@ -216,6 +239,7 @@ void handleSaveRequest() {
     preferences.putString("getLeagueID", webServer.arg("leagueid_input"));
     preferences.putString("getTeamID", webServer.arg("teamid_input"));
     preferences.putString("getSeasonID", webServer.arg("seasonid_input"));
+    preferences.putInt("getStarters", webServer.arg("starters_input").toInt()); //TODO Check if to int onverts "123" to 123 instead of ASCII stufff
     preferences.putString("getUsername", webServer.arg("espnusername_input"));
     preferences.putString("getESPNPW", webServer.arg("espnpw_input"));
 
@@ -230,22 +254,26 @@ void handleSaveRequest() {
     ESP.restart();
 }
 
-void printErrorToScreen(){
+void printErrorToScreen() {
   Serial.println("ERROR!!!!!");
   Serial.println(errorMessage);
 }
 
-void printToScreen(){
-Serial.println("Week: ");
-Serial.print(week);
+void printToScreen() { //https://www.arduino.cc/en/Reference/LiquidCrystal
+  Serial.println("Week: ");
+  Serial.print(week);
 
-Serial.println(teamAbbrevAway);
-Serial.print(": ");
-Serial.print(teamScoreAway);
+  Serial.println(teamAbbrevAway);
+  Serial.print(": ");
+  Serial.print(teamScoreAway);
+  Serial.print(" Remaining: ");
+  Serial.print(remainingAway);
 
-Serial.println(teamAbbrevHome);
-Serial.print(": ");
-Serial.print(teamScoreHome);
+  Serial.println(teamAbbrevHome);
+  Serial.print(": ");
+  Serial.print(teamScoreHome);
+  Serial.print(" Remaining: ");
+  Serial.print(remainingHome);
 }
 
 void loop() {
